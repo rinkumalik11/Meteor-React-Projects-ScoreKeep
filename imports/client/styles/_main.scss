@@ -1,0 +1,29 @@
+/* CSS declarations go here */
+$grey: #f2f2f2;
+$nred:#e35557;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+input,button,select{
+  font-size: 1.3rem;
+}
+
+body{
+  font-family: Helvetica,Arial,Sans-serif;
+  background: $grey;
+  font-size: 1.6rem;
+}
+
+
+@import "./components/titlebar";
+@import "./components/wrapper";
+@import "./components/item";
+@import "./components/button";
+@import "./components/form";
+@import "./components/player";
